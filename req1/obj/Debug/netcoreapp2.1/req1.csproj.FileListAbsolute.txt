@@ -1,0 +1,11 @@
+C:\Users\CGI\source\repos\req1\bin\Debug\netcoreapp2.1\req1.deps.json
+C:\Users\CGI\source\repos\req1\bin\Debug\netcoreapp2.1\req1.runtimeconfig.json
+C:\Users\CGI\source\repos\req1\bin\Debug\netcoreapp2.1\req1.runtimeconfig.dev.json
+C:\Users\CGI\source\repos\req1\bin\Debug\netcoreapp2.1\req1.dll
+C:\Users\CGI\source\repos\req1\bin\Debug\netcoreapp2.1\req1.pdb
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.csprojAssemblyReference.cache
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.csproj.CoreCompileInputs.cache
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.AssemblyInfoInputs.cache
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.AssemblyInfo.cs
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.dll
+C:\Users\CGI\source\repos\req1\obj\Debug\netcoreapp2.1\req1.pdb

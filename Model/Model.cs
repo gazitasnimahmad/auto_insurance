@@ -130,6 +130,7 @@ namespace Model
         public string Vehicle_id { get => vehicle_id; set => vehicle_id = value; }
         public string Vehicle_type { get => vehicle_type; set => vehicle_type = value; }
         public string Policy_amount { get => policy_amount; set => policy_amount = value; }
+        
     }
 
     public class Insurance_officer
