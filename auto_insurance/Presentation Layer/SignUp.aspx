@@ -6,7 +6,7 @@
 
 
     <div class="col-md-6 mb-md-0 mb-6">
-
+        
         <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
