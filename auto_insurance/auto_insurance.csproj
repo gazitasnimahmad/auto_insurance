@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.SqlClient, Version=4.5.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.6.1\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -69,7 +72,6 @@
   <ItemGroup>
     <Content Include="Pictures\car pic.jpg" />
     <Content Include="Presentation Layer\claimProfile.aspx" />
-    <Content Include="Presentation Layer\MasterFooter.aspx" />
     <Content Include="Presentation Layer\SignUp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -87,13 +89,6 @@
     </Compile>
     <Compile Include="Presentation Layer\Header.Master.designer.cs">
       <DependentUpon>Header.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Presentation Layer\MasterFooter.aspx.cs">
-      <DependentUpon>MasterFooter.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Presentation Layer\MasterFooter.aspx.designer.cs">
-      <DependentUpon>MasterFooter.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation Layer\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
@@ -114,7 +109,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2\DaoLibrary.csproj">
+      <Project>{2856f824-6b15-44c4-8513-a5bdf5c3e917}</Project>
+      <Name>DaoLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary3\controllerLibrary.csproj">
+      <Project>{5698d6c4-7adb-4bf4-ad6e-b76586bd9aa7}</Project>
+      <Name>controllerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ff29c5a4-b906-4ceb-bec6-ddb2578ae69d}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

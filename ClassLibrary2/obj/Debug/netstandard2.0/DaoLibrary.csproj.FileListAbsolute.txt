@@ -1,0 +1,13 @@
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\Model.dll
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.csprojAssemblyReference.cache
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.AssemblyInfoInputs.cache
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.AssemblyInfo.cs
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\DaoLibrary.deps.json
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\DaoLibrary.dll
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\DaoLibrary.pdb
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\CGI\source\repos\ClassLibrary2\bin\Debug\netstandard2.0\Model.dll.config
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.csproj.CopyComplete
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.dll
+C:\Users\CGI\source\repos\ClassLibrary2\obj\Debug\netstandard2.0\DaoLibrary.pdb

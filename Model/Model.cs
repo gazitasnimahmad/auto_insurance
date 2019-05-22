@@ -20,9 +20,10 @@ namespace Model
         string city;
         string country;
         string pincode;
+        string state;
 
         public User() { }
-        public User(string user_id, string username, string password, string email_id, string mobile_no, string gender, string dob, string security_question, string security_answer, string profile_pic, string city, string country, string pincode)
+        public User(string state,string user_id, string username, string password, string email_id, string mobile_no, string gender, string dob, string security_question, string security_answer, string profile_pic, string city, string country, string pincode)
         {
             this.user_id = user_id;
             this.username = username;
@@ -37,6 +38,8 @@ namespace Model
             this.city = city;
             this.country = country;
             this.pincode = pincode;
+            this.state = state;
+
         }
 
         public string User_id { get => user_id; set => user_id = value; }
@@ -52,6 +55,7 @@ namespace Model
         public string City { get => city; set => city = value; }
         public string Country { get => country; set => country = value; }
         public string Pincode { get => pincode; set => pincode = value; }
+        public string State { get => state; set => state = value; }
     }
 
     public class Claim

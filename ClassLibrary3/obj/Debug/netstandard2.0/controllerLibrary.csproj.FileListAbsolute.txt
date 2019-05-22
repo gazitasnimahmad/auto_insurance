@@ -1,0 +1,15 @@
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\DaoLibrary.dll
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\Model.dll
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.csprojAssemblyReference.cache
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.AssemblyInfoInputs.cache
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.AssemblyInfo.cs
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\controllerLibrary.deps.json
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\controllerLibrary.dll
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\controllerLibrary.pdb
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\DaoLibrary.pdb
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\CGI\source\repos\ClassLibrary3\bin\Debug\netstandard2.0\Model.dll.config
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.csproj.CopyComplete
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.dll
+C:\Users\CGI\source\repos\ClassLibrary3\obj\Debug\netstandard2.0\controllerLibrary.pdb
