@@ -13,5 +13,15 @@ namespace auto_insurance.Presentation_Layer
         {
 
         }
+
+        protected void LinkButton5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SignUp.aspx");
+        }
+
+        protected void LinkButton6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

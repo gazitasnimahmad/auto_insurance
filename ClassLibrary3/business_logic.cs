@@ -19,6 +19,23 @@ public class business_logic
         return false;
     }
 
+
+
+    public bool validateForgot(string email1,string dropdown1,string answer) 
+    {
+        data_access_layer d1 = new data_access_layer();
+        bool x = d1.checkForgot( email1, dropdown1, answer);
+        return x;
+
+    }
+
+    public bool updatePassword(string str, string email)
+    {
+        data_access_layer a1 = new data_access_layer();
+        bool x = a1.updatePass(str, email);
+        return x;
+    }
+
     // validating the claim registrarion page
     public bool validateClaim(Claim c)
     {
@@ -47,19 +64,19 @@ public class business_logic
 
     //validating the login page
 
-    public bool validaingLogin(login l)
+    public bool validatingLogin(login l)
     {
           // decoding the 64baseString password to normal string
         
-        if (l.Username != null && l.Password != null && l.Role_name != null)
-        {
+        
             //var base64EncodedBytes = System.Convert.FromBase64String(l.Password);
             //l.Password = System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
             data_access_layer d4 = new data_access_layer();
-            d4.InsertLogin(l);
-            return true;
-        }
-        return false;
+            bool x = d4.InsertLogin(l);
+            
+            return x;
+        
+        
     }
 
     //validating the claim officer inputs
@@ -91,15 +108,9 @@ public class business_logic
 
     // validating the payments
 
-    public bool validatingPayments(Payment p)
+    public void validatingPayments(Payment p)
     {
-        if (true)
-        {
-            data_access_layer d7 = new data_access_layer();
-            d7.InsertPayments(p);
-            return true;
-        }
-        return false;
+        
     }
 
     
